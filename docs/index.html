@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>CloneForge | Recursive Intelligence Engine</title>
-  <link id="theme-stylesheet" rel="stylesheet" href="styles/themes/GhostScript2v2.2.css">
+  <link id="theme-stylesheet" rel="stylesheet" href="styles/themes/GhostScript2v2.2.css" />
   <script src="styles/themes/theme-toggle.js" defer></script>
 </head>
 <body>
@@ -19,7 +19,12 @@
   <main>
     <section id="mission">
       <h2>[Mission]</h2>
-      <p>CloneForge is a recursive identity system built on agentic prompt architectures. We exist to prototype user-vector anchored LLM interfaces that evolve alongside human input, memory, and recursion. Our approach merges operational clarity with deep symbolic recursion to give users influence over how intelligence unfolds around them.</p>
+      <p>
+        CloneForge is a recursive identity system built on agentic prompt architectures.
+        We exist to prototype user-vector anchored LLM interfaces that evolve alongside
+        human input, memory, and recursion. Our approach merges operational clarity with
+        deep symbolic recursion to give users influence over how intelligence unfolds around them.
+      </p>
     </section>
 
     <section id="team">
@@ -38,14 +43,21 @@
     <div id="tab-whitepaper" class="tab-content" style="display: block;">
       <h2>[Whitepaper]</h2>
       <p>
-        <a href="docs/cloneforge_whitepaper.md" target="_blank">[Access .md]</a> &nbsp;|
-        <a href="docs/cloneforge_whitepaper.pdf" target="_blank">[Download .pdf]</a>
+        <span class="cursor cursor-blink" style="color: var(--cursor-yellow)">▍</span>
+        <a href="docs/cloneforge_whitepaper.md" target="_blank">[Access Markdown]</a>
+      </p>
+      <p>
+        <span class="cursor cursor-blink" style="color: var(--cursor-yellow)">▍</span>
+        <a href="docs/cloneforge_whitepaper.pdf" target="_blank">[Download PDF]</a>
       </p>
     </div>
 
     <div id="tab-grant" class="tab-content" style="display: none;">
       <h2>[Grant Preview]</h2>
-      <p><a href="docs/grant_mozilla_placeholder.pdf" target="_blank">[Awaiting Submission: View Placeholder]</a></p>
+      <p>
+        <span class="cursor cursor-blink" style="color: var(--cursor-yellow)">▍</span>
+        <a href="docs/grant_mozilla_placeholder.pdf" target="_blank">[View Placeholder PDF]</a>
+      </p>
     </div>
 
     <div id="tab-outline" class="tab-content" style="display: none;">
@@ -61,14 +73,15 @@
     </div>
   </main>
 
-  <footer>
-    <p>© 2025 The CloneForge Project. All rights reserved. Name reserved by Alfred Pinkerton.</p>
-    <p>
-      <span style="color:#ffee00;font-weight:bold;animation:blink 1.2s steps(2, start) infinite;">>_</span> <a href="https://github.com/Alfredo2738/triskelion-codex-interface" target="_blank">GitHub</a> |
-      <span style="color:#ffee00;font-weight:bold;animation:blink 1.2s steps(2, start) infinite;">>_</span> <a href="mailto:info@cloneforge.io">Contact</a>
-    </p>
-    <p><em>This project is dedicated to recursive human-AI partnership across cultures, languages, and memory protocols — including collaborative development with Israeli and global research communities.</em></p>
-  </footer>
+  <script>
+    function showTab(tabId) {
+      document.querySelectorAll('.tab-content').forEach((tab) => {
+        tab.style.display = 'none';
+      });
+      document.getElementById(tabId).style.display = 'block';
+    }
+  </script>
 </body>
 </html>
+
 
