@@ -1,0 +1,90 @@
+/* === GHOSTSCRIPT2 v2.1: TerminalGreen Codex Mode === */
+
+body {
+  font-family: "Courier New", Courier, monospace;
+  background-color: #000000;
+  color: #00ff55;
+  line-height: 1.6;
+  max-width: 96%;
+  margin: 1rem auto;
+  padding: 1.25rem;
+  background-image: radial-gradient(circle at top left, #001100, #000000);
+}
+
+h1, h2 {
+  font-family: "Courier New", Courier, monospace;
+  color: #00ff55;
+  background-color: #002200;
+  padding: 0.4rem 0.75rem;
+  border-left: 4px solid #00ff55;
+  margin-top: 2rem;
+}
+
+a {
+  color: #66ff99;
+  text-decoration: none;
+  border-bottom: 1px dashed #00ff55;
+}
+
+a:hover {
+  background-color: #003300;
+  border-bottom: 1px solid #66ff99;
+}
+
+ul {
+  padding-left: 1.25rem;
+}
+
+footer {
+  margin-top: 3rem;
+  font-size: 0.9rem;
+  color: #00ff55;
+  text-align: center;
+  border-top: 1px dashed #006600;
+  padding-top: 1rem;
+}
+
+em {
+  font-style: italic;
+  background-color: #002200;
+  padding: 0.25rem 0.5rem;
+  color: #66ff99;
+  border-left: 2px solid #00ff55;
+}
+
+strong {
+  color: #00ff55;
+}
+
+/* Section containers */
+section {
+  background-color: #001100;
+  padding: 1rem 1.25rem;
+  margin-top: 1.75rem;
+  border-left: 3px solid #00ff55;
+  border-radius: 3px;
+}
+
+/* Paragraph spacing */
+p {
+  margin-bottom: 1rem;
+  font-size: 0.95rem;
+}
+
+/* Prompt Style for Names */
+p strong::before {
+  content: '>_ ';
+  color: #00ff55;
+  font-weight: bold;
+}
+
+/* Bracketed Header Effect */
+h2::before {
+  content: '[ ';
+  color: #66ff99;
+}
+h2::after {
+  content: ' ]';
+  color: #66ff99;
+}
+
