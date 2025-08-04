@@ -1,0 +1,26 @@
+# Core AI/ML
+openai>=1.14.0
+transformer_lens==1.5.2
+torch==2.1.2
+torchvision==0.16.2
+torchaudio==2.1.2
+transformers==4.38.2
+datasets==2.18.0
+
+# Visualization
+plotly==5.18.0
+matplotlib==3.8.3
+seaborn==0.13.2
+streamlit==1.32.0
+
+# Voice/Web
+elevenlabs==0.2.31
+pydub==0.25.1
+streamlit-player==0.1.6
+
+# Utilities
+numpy==1.26.4
+pandas==2.2.1
+tqdm==4.66.2
+einops==0.7.0
+python-dotenv==1.0.1
